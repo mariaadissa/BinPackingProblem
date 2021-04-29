@@ -84,10 +84,11 @@ if __name__ == '__main__':
     print("ffa solution is using: ",len(bins_ffa), "bins")
     print("ffda solution is using: ",len(bins_ffda), "bins")
     
+    #####this loop is checking if the algorithm was able to find the best known solution
     # N1C1W1_A_solution = 25
     # N1C1W1_B_solution = 31
     # HARD0_solution = 56
-    # while(len(bins_ffa)!=N1C1W1_A_solution):
+    # while(len(bins_ffa)!=N1C1W1_A_solution):  
     #     bins_ffa = ffa(items_list,c)
     #     print("looping..")
     # print("solution found")
